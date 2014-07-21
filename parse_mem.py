@@ -55,7 +55,7 @@ class sshkeyparse:
             return -1
 
     def getkeys(self, output):
-        """ Parses for all the keys stored in ssh-agent """
+        """ Parses for keys stored in ssh-agent's stack """
 
         keynum = 0
         validkey = 0
