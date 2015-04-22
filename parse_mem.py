@@ -91,7 +91,7 @@ class sshkeyparse:
         if self.type is "rsa":
             self.create_rsa(output)
             print ("Creating %s key: %s" % (self.type, output))
-        if self.type is "dsa":
+        elif self.type is "dsa":
             self.create_dsa(output)
             print ("Creating %s key: %s" % (self.type, output))
         else:
